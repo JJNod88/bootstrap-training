@@ -25,9 +25,54 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-.quotes.container {}
+/* navbar stiling */
 
-.features.container {} 
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navalert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.site-wide-alert {
+    border-radius: 0%;
+    margin-bottom: 0;
+    padding: 5px;
+    background-color: rgb(253, 223, 152);
+    border: 0;
+}
 
 /* jumbotron */
 .jumbotron {
@@ -52,13 +97,29 @@ body {
     background-color: #f05f40;
 }
 
+.block-divider--white {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #ffffff;
+}
+
 .block-divider--orange {
     background-color: #f05f40;
 }
 
-.block-divider--short {
+/* content container */
 
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
+
+.quotes .page-header{
+    margin-bottom: 25px;
+}
+
+/* buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -85,4 +146,38 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+/* page headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: o;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+
+}
+
+.features-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+.features .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
